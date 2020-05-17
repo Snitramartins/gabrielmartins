@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15;
+    padding: 0;
+    margin: 0; 
+} 
+
+/*---------------------------------------------------------------------------------------------*/
+/* INICIO */
+.inicio_nome h1{
+    font-size: 4em;
+    text-align: center;
+    Margin: auto;
+    top:50%;
+    left:50%;
+    transform: translate(0%, 250%);
+    
+}
+
+.inicio_butao {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    background-color: black;
+    color: white;
+    top:50%;
+    left:50%;
+    right:0px;
+    transform: translate(0%, 600%);
+   
+}
+
+.inicio_butao p{
+    text-align:center;
+    padding: 10px;
+}
+
+.inicio_butao a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.inicio_butao:hover {
+    background-color: grey;
+}
+/*---------------------------------------------------------------------------------------------*/
+
+/* GERAIS */
+
+.tudo{
+    max-width: 1360px;
+    padding:0px;
+    margin:0px;
+}
+
+.barra{
+    background-color: black;
+    width:100%;
+    position:fixed;
+    z-index:999;
+    height: 80px;
+    padding: 0 4.4% 0 4.4%;
+    left:0;
+    right:0;
+    top:0;
+    box-sizing: border-box;
+    
+   
+}
+
+
+
+li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    list-style: none;
+    text-align: center;
+}
+
+.menu:hover .anormal{
+    color: grey;
+}
+
+
+.anormal_current{
+    color: grey;
+}
+
+
+
+.navegacao{
+    transform: translate(5%,150%);
+    text-align: center;
+    background-color:;
+    box-sizing: border-box;
+    width: 38%;
+    float:right;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    width: ;
+}
+.logo h1 {
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+    transform: translate(2%, -20%);
+    background-color: black;
+    text-align: left;
+    
+}
+
+
+
+
+.main{
+    width:100%;
+    margin-top:200px;
+    padding-left: 4.4%;
+    padding-right: 4.4%;
+    box-sizing: border-box;
+    float: none;
+    display: inline-block;
+    
+}
+
+
+footer {
+    background-color: black;
+    width:100%;
+    height: 80px;
+    margin-top:40px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 80px;
+}
+
+.texto {
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    padding-left: 10px;
+}
+
+h3 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 3em;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 20px;
+    transform: translate(0%, -15%);
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: left;
+}
+
+.texto {
+    width: 66%;
+    margin: 0px;
+    padding:0px;
+    float: right;
+}
+
+
+/*---------------------------------------------------------------------------------------------*/
+
+/* Portfolio */
+
+.trabalho{
+    max-height:;
+    max-width: ;
+    overflow: hidden;
+    position:relative;
+    
+}
+
+
+.trabalho img{
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.2s;
+    margin-bottom: 80px;
+    
+}
+
+.projeto_nome{
+    display: none;
+    text-align: center;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+    z-index: 1;
+}
+
+.projeto_nome h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+    color: grey
+}
+
+.link:hover .projeto_nome {
+    display: block;
+}
+
+.link:hover img {
+    opacity: 0.2;
+}
+
+h4 {
+    padding:0px;
+    margin:10px;
+    
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*Contactos*/
+
+.main_contactos {
+    width:55%;
+    margin-top:200px;
+    box-sizing: border-box;
+    float: none;
+    display: inline-block;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    background-color:#ebebeb;
+    padding:20px;
+    border-radius: 3px;
+    margin-bottom: 80px;
+    
+}
+
+input{
+    border: none;
+    box-shadow: 1px 3px 5px 0px #cbcbcb;
+    height: 30px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%
+    
+}
+
+textarea{
+    
+     border: none;
+    box-shadow: 1px 3px 5px 0px #cbcbcb;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 120px;
+   
+    margin-bottom: 20px;
+
+}
+
+.enviar{
+    border:none;
+    margin:10px;
+    background-color: Black;
+    color: white;
+    padding:10px;
+    font-size: 1em;
+    cursor: pointer;
+    
+    margin-left: 0px;
+    left: 0px;
+    transform: translate(-15%, 0%);
+}
+
+.enviar:hover {
+    background-color: grey;
+}
+
+.smol {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.texto_contacto{
+    margin: 0px;
+    padding: 0px;
+    float: none;
+    text-align: left;
+    margin-bottom: 20px
+}
+
+.list_contacto{
+    text-align: left;
+    margin-left: 10px;
+    padding-bottom: 5px
+    
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/* Slides trabalhos */
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-right: 10px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover button */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 1em;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-weight: 600;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------*/
+/* Responssive */
+
+
+@media only screen and (max-width: 766px) {
+    .barra{
+        width: 100%;
+        height: 230px; 
+        padding:0px;
+        margin:0px;
+    }
+    .logo{
+        float: none;
+        width:100%;
+        text-align: center;
+        
+        
+    }
+    .logo h1 {
+        float: none;
+    text-align: center;
+    transform: translate(-0%, 0%);
+       
+}
+    .navegacao{
+        align-content: center;
+        width:100%;
+        float: none;
+        left: 50%;
+        top: 50%;
+        transform: translate(-0%, 0%);
+        padding:0px;
+        margin: auto;
+        padding-top:20px;
+        border-top: 2px solid white;
+        
+        
+    }
+    .placeholder{
+        align-content: center;
+        width:100%;
+        float: none;
+        left: 50%;
+        top: 50%;
+        transform: translate(-22%, 0%);
+        padding: 0px;
+    
+    }
+    
+    
+    .menu{
+        float:none;
+        left: 50%;
+        top: 50%;
+        transform: translate(0%, 0%);
+        text-align: center;
+        padding: 5px;
+        margin:0px;
+        display: block;
+        list-style: none;
+    }
+    
+    .main{
+        margin-top: 310px;
+        margin-bottom: 80px;
+    }
+    
+    .texto {
+    width: 100%;
+    margin: 0px;
+    padding:5px;
+    float: left;
+}
+
+    .main_contactos {
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 310px;
+    
+    
+}
+   
+    .inicio_nome h1{
+    font-size: 3em;
+    text-align: center;
+    Margin: auto;
+    top:50%;
+    left:50%;
+    transform: translate(0%, 350%);
+    
+/*---------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+

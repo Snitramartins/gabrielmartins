@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gabriel Martins</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1" />   <!-- Necessario para o Unsemantic Grid funcionar corretamente em dispositivos móveis-->
+      <link href="unsemantic-grid-responsive.css" rel="stylesheet">   <!-- Carrega o Unsemantic Grid -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"> <!-- Carrega o Font Awesome para inserir os ícones do Facebook e Twitter -->
+    <link href="GabrielMartins_estilos.css" rel="stylesheet"> <!-- A minha folha de estilos -->
+</head>
+    
+    <body>
+    <div class="tudo grid-100"> <!-- A caixa que envolve todo o site -->
+        <nav class="barra grid-100">
+            <div class="logo grid-50">
+                <h1>Gabriel Martins</h1>
+            </div>
+            <div class="navegacao grid-50">
+                <ul>
+                    <li class="menu grid-33">  <a class="anormal" href="GabrielMartins_Portfolio.html">Portfolio</a></li>
+                    <li class="menu grid-33">  <a class="anormal" href="GabrielMartins_Sobre.html">Sobre</a></li>
+                    <li class="menu grid-33">  <a class="anormal anormal_current" href="GabrielMartins_Contactos.html">Contactos</a></li>
+               </ul>
+            </div>
+            <!--<div class="placeholder grid-33">
+                <input type="text" placeholder="Search..">
+            </div>-->
+        </nav>
+    
+    <section class="main_contactos grid-parent">
+        <div class="texto_contacto grid-100">
+            <p class="texto_contacto">Entre em contacto comigo através do formulário abaixo ou utilizando a informação de contacto: </p>
+            <ul>
+                <li class="list_contacto"><b>Telemóvel:</b> 900 000 000</li>
+                <li class="list_contacto"><b>E-mail:</b> gabriel.bras@ua.pt</li>
+            </ul>
+        </div>
+
+
+   <form action="https://formspree.io/maypqwyo" method="POST">
+       
+  <label class="grid-100">
+    <p class="smol">O seu E-mail:</p>
+    <input class="grid-100" type="text" name="_replyto">
+  </label>
+       
+  <label class="grid-100">
+    <p class="smol">Menssagem:</p>
+    <textarea class="grid-100" name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button class="enviar" type="submit">Enviar</button>
+       
+</form>
+        
+    </section>
+    
+    
+    <footer class="pe">
+    </footer>
+    </div>  
+  </body>
+</html>
+
+    
